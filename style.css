@@ -1,37 +1,82 @@
 body {
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(250, 250, 250);
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: rgba(230, 230, 230, 0.5)
+}
+
+.left-container {
+  width: 35%;
+  float: left;
+  height: 670px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.right-container {
+  width: 60%;
+  height: 670px;
+  float: right;
+  padding: 10px;
+}
+
+.clear {
+  clear: both;
 }
 
 .card-white {
   background: white;
   padding: 25px;
-  margin: 20px auto;
+  margin-bottom: 20px;
   border-radius: 5px;
-  box-shadow: 2px 2px 3px rgb(230, 230, 230);
-  width: 500px;
-  text-align: center;
+  box-shadow: 2px 2px 3px rgba(210, 210, 210, 0.5);
   font-family: "Open Sans", "sans serif";
+  position: relative;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white h2, h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: rgba(110, 110, 110, 0.8);
 }
 
 h1 {
   margin-top: 5px;
-  margin-bottom: 30px;
+  margin-bottom: 15`px;
   color: #D23333;
   font-family: "Montserrat", sans-serif;
-}
-
-h2, h3, p {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  color: rgb(110, 110, 110);
+  font-size: 25px;
 }
 
 p {
   color: rgb(180, 180, 180);
+  font-size: 15px;
+  line-height: 20px;
 }
 
 a {
   text-decoration: none;
+}
+
+#banner {
+  line-height: 40px;
+}
+
+#navigation {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 5px;
 }
 
 .img-circle {
@@ -55,12 +100,13 @@ a {
 
 .list-inline {
   list-style: none;
+  display: inline-block;
   padding-left: 0;
 }
 
 .list-inline li {
   display: inline-block;
-  margin: 5px 30px;
+  margin: 5px 22px;
 }
 
 .list-inline li > a {
@@ -78,13 +124,29 @@ i {
   font-size: 25px;
 }
 
-.cover-img {
-  width: 100px;
+.project-img {
+  width: 150px;
   height: 150px;
-  padding: 20px;
+  padding: 0px;
+  padding-right: 10px;
+  margin-bottom: 10px;
 }
 
 td > h3 {
   margin-top: 5px;
   margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+#summary {
+  padding: 10px 400px 30px 10px;
+}
+
+#summary > ul {
+  position: absolute;
+  text-align: center;
+  bottom: 5px;
+  right: 0;
+  font-size: 20px;
+  white-space: nowrap;
 }
