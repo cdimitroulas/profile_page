@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(250, 250, 250);
+  background-color: #DDDDDD;
 }
 
 .wrapper {
@@ -7,7 +7,7 @@ body {
   margin: 20px auto;
   padding: 15px;
   border-radius: 5px;
-  background-color: rgba(230, 230, 230, 0.5)
+  background-color: rgba(200, 190, 201, 0.5);
 }
 
 .left-container {
@@ -32,11 +32,11 @@ body {
 }
 
 .card-white {
-  background: white;
+  background: #F3F1F5;
   padding: 25px;
   margin-bottom: 20px;
   border-radius: 5px;
-  box-shadow: 2px 2px 3px rgba(210, 210, 210, 0.5);
+  box-shadow: 2px 2px 3px rgba(200, 200, 200, 0.6);
   font-family: "Open Sans", "sans serif";
   position: relative;
 }
@@ -48,13 +48,13 @@ body {
 .card-white h2, h3 {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-  color: rgba(110, 110, 110, 0.8);
+  color: #857885;
 }
 
 h1 {
   margin-top: 5px;
   margin-bottom: 15`px;
-  color: #D23333;
+  color: #484944;
   font-family: "Montserrat", sans-serif;
   font-size: 25px;
 }
@@ -85,17 +85,19 @@ a {
   border-radius: 100px;
 }
 
-.btn-red {
-  background-color: #D23333;
+.btn-dark-blue {
+  background-color: #4C4D74;
   color: rgb(250,250,250);
   padding: 5px 10px;
   border-radius: 4px;
 }
 
-.btn-red:hover {
+.btn-dark-blue:hover {
   color: white;
-  background-color: #B11D1D;
+  background-color: #2E2F47;
   text-decoration: none;
+  position: relative;
+  top: 1px;
 }
 
 .list-inline {
@@ -118,6 +120,9 @@ a {
 
 .list-inline li > a:hover {
   color: #B11D1D;
+  position: relative;
+  top: 1px;
+  left: 1px;
 }
 
 i {
@@ -130,6 +135,10 @@ i {
   padding: 0px;
   padding-right: 10px;
   margin-bottom: 10px;
+}
+
+.project-img:hover {
+  opacity: 0.7;
 }
 
 td > h3 {
