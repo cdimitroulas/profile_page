@@ -135,6 +135,7 @@ i {
   padding: 0px;
   padding-right: 10px;
   margin-bottom: 10px;
+  border-radius: 150px;
 }
 
 .project-img:hover {
